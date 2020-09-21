@@ -7,6 +7,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 @Slf4j
 public class MysqlConnection {
     private static final Logger logger = LoggerFactory.getLogger(MysqlConnection.class);
